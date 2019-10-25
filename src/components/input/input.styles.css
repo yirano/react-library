@@ -6,9 +6,25 @@
   --grey-dark-blue: #28304a;
   --grey-blue: #536398;
 }
+
+.inputBox {
+  height: auto;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid blue;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+input, button {
+  display: block;
+  margin: 20px auto;
+}
+
 input {
   height: 30px;
   width: 300px;
-  border: 1px solid blue;
-  margin: 0 auto;
+  padding: 5px 14px;
+  border: none;
+  border-bottom: 1px solid var(--grey-blue);
 }
