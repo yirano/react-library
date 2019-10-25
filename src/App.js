@@ -1,6 +1,7 @@
 import React from 'react';
 import {Input} from './components/input/input.component';
 import {CardList} from './components/card-list/card-list.component';
+import {AddButton} from './components/add-button/add-button.components';
 import './App.css';
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
   render(){
     return (
       <div className = "container">
+        <AddButton />
         <Input />
         <CardList books={this.state.books} />
       </div>

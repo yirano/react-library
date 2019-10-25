@@ -2,7 +2,7 @@ import React from 'react';
 import './card.styles.css';
 
 function deleteCard(e){
-  console.log('clicked');
+  console.log('Delete card');
 }
 
 export const Card = (props) => (
