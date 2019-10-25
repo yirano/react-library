@@ -1,11 +1,16 @@
 import React from 'react';
 import './card.styles.css';
 
-export const Card = () => (
+function deleteCard(e){
+  console.log('clicked');
+}
+
+export const Card = (props) => (
   <div className = "card">
-    <h2>This is a book</h2>
-    <p className = 'author'>Alice Hoffman</p>
-    <p className = 'pageNumber'>235</p>
+    <p className='title'>{props.book.title}</p>
+    <p className = 'author'>{props.book.author}</p>
+    <p className = 'pages'>{props.book.pages}</p>
+    <button className = 'deleteCard' onClick={deleteCard}>X</button>
   </div>
 )
 
