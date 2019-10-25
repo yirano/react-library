@@ -1,8 +1,28 @@
+:root {
+  --dark-blue: rgb(22, 25, 33);
+  --grey-dark-blue: #28304a;
+  --grey-blue: #536398;
+}
+
 .card {
-  height: 80px;
-  width: 100%;
-  border: 2px solid blue;
   display: flex;
+  height: 80px;
+  width: 80%;
+  border-bottom: 1px solid var(--grey-blue);
   align-items: center;
   justify-content: space-around;
+  padding: 0 20px;
 }
+
+.title {
+  flex: 0 0 50%;
+}
+
+.author {
+  flex: 0 0 30%;
+}
+
+.pages {
+  flex: 0 0 20%;
+}
+

@@ -1,0 +1,25 @@
+.card-list {
+  display: grid;
+  justify-items: center;
+}
+
+.card-list-bar {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid blue;
+  padding: 0 20px;
+}
+
+.bar-title {
+  flex: 0 0 50%;
+}
+
+.bar-author {
+  flex: 0 0 30%;
+}
+
+.bar-pages {
+  flex: 0 0 20%;
+}
