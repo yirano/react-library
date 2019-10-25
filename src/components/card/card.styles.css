@@ -1,9 +1,3 @@
-:root {
-  --dark-blue: rgb(22, 25, 33);
-  --grey-dark-blue: #28304a;
-  --grey-blue: #536398;
-}
-
 .card {
   display: flex;
   height: 80px;
