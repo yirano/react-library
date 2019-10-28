@@ -1,6 +1,7 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 :root {
   --dark-blue: rgb(22, 25, 33);
   --grey-dark-blue: #28304a;
@@ -18,7 +19,8 @@
   padding: 40px 20px;
 }
 
-input, button {
+input,
+button {
   display: block;
   margin: 20px auto;
 }
