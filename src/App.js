@@ -1,12 +1,11 @@
 import React from 'react';
-import {Input} from './components/input/input.component';
 import {CardList} from './components/card-list/card-list.component';
-import {AddButton} from './components/add-button/add-button.components';
+import ToggleInput from './components/toggle-input/toggle-input.component';
 import './App.css';
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       books: [
         {
@@ -30,8 +29,7 @@ class App extends React.Component {
   render(){
     return (
       <div className = "container">
-        <AddButton />
-        <Input />
+        <ToggleInput />
         <CardList books={this.state.books} />
       </div>
     )
