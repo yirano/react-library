@@ -1,15 +1,12 @@
-import React from 'react';
-import './add-button.styles.css';
+import React from "react";
+import "./add-button.styles.css";
 
-
-class AddButton extends React.Component {
-  render(){
-    return(
-      <div>
-        <button>Add to Library</button>
-      </div>
-    )
-  }
+function AddButton(props) {
+  return (
+    <div>
+      <button onClick={() => props.handleClick()}>Add to Library</button>
+    </div>
+  );
 }
 
 export default AddButton;
